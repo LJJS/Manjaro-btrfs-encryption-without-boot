@@ -29,7 +29,7 @@ cfdisk /dev/nvme1n1
 ```
 ### 3.3 Setting up the encryption container
 ```
-cryptsetup luksFormat /dev/nvme1n1
+cryptsetup luksFormat /dev/nvme1n1p2
 ```
 Open up the container
 ```
